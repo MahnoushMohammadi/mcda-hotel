@@ -1,0 +1,22 @@
+# mcda-hotel
+CREATE TABLE `HOTELDB` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `CHECKIN` varchar(45)NOT NULL,
+  `CHECKOUT` varchar(45)NOT NULL,
+  `GUESTNUM` int(11) NOT NULL,
+  `ROOMNUM` int(11) NOT NULL,
+  `LNAME` varchar(45) NOT NULL,
+  `FNAME` varchar(45) NOT NULL,
+  `STREET` varchar(45) NOT NULL,
+  `CITY` varchar(45) NOT NULL,
+  `PROVINCE` varchar(45) NOT NULL,
+  `COUNTRY` varchar(45) NOT NULL,
+  `POSTALCODE` varchar(45) DEFAULT NULL,
+  `PHONENUMBER` varchar(45) DEFAULT NULL,
+  `EMAIL` varchar(45) DEFAULT NULL,
+  `CCTYPE` varchar(45) NOT NULL,
+  `CCNAME` varchar(45) NOT NULL,
+  `CCNUMBER` varchar(45) NOT NULL,
+  `CCEXPIRY` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
